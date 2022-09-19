@@ -2,8 +2,11 @@ body{
     margin: auto;
 }
 
+/* header */
 .logo-images {
     width: 150px;
+    padding-top: 50px;
+    margin-left: 10px;
 }
 
 .header-logo  {
@@ -36,6 +39,7 @@ h1 {
     color: grey;
 }
 
+/* sections */
 main {
     margin-top: 20px;
     margin-right: 10px;
@@ -48,4 +52,60 @@ main {
 
 mark {
     background-color: yellow;
+}
+
+/* table */
+table {
+    text-align: left; 
+    vertical-align: middle;
+    table-layout: auto;
+}
+
+thead {
+    background-color: #55aee1 ;
+    color: white;
+}
+
+.colored-line {
+    background-color: #b0e9f9;
+}
+
+.column1 {
+    width: 20%;
+}
+
+.column2 {
+    width: 20%;
+}
+
+.column3 {
+    width: 60%;
+}
+
+/* footer */
+#footer-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.footer-img1 {
+    background-image: url("../img/monitor.jpg");
+    background-size: contain;
+    width: 200px;
+    height: 150px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-img2 {
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    width: 200px;
+    height: 150px;
+    color: white;
+    margin-left:10px;
+    margin-bottom: 10px;
 }
