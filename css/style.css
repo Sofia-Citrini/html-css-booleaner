@@ -1,0 +1,37 @@
+body{
+    margin: auto;
+}
+
+.logo-images {
+    width: 150px;
+}
+
+.header-logo  {
+    height: 100px;
+    background-color: #55aee1;
+    background-image: url("../img/pattern.png");
+    background-size: 400px;
+}
+
+.heading {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.text-blue {
+    color: #55aee1 ;
+}
+
+.text-autor {
+    font-size: 13px;
+    color: grey;
+}
+
+.text-date {
+    font-size: 10px;
+    color: grey;
+}
